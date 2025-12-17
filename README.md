@@ -17,4 +17,4 @@ to evaluate linear vs non-linear decision boundaries.
 - Model selection depends on interpretability vs predictive performance.
 
 ## Files
-- `analysis.py`: data preprocessing, modeling, and evaluation
+- `hr_dataset.py`: data preprocessing, modeling, and evaluation
