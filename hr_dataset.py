@@ -541,7 +541,7 @@ contingency=pd.crosstab(
     df_man['left']
 )
 
-contigency
+contingency
 
 chi2,p_value,dof,expected = chi2_contingency(contingency)
 
