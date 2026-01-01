@@ -812,7 +812,7 @@ y_pred_rf = rf_model.predict(x_test)
 y_proba_rf = rf_model.predict_proba(x_test)[:,1]
 
 print(classification_report(y_test, y_pred_rf))
-print("ROU_AUC:", roc_auc_score(y_test, y_proba))
+print("ROU_AUC:", roc_auc_score(y_test, y_proba_rf))
 
 """Random Forest Classifier
 
